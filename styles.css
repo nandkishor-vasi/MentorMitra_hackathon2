@@ -515,7 +515,11 @@ footer {
  /*----------------- Mobile Dimensions --------------------------  */
 
  @media screen and (max-width : 767px) {
-   
+    
+    .logo1{
+        height: 10px;
+        width: 10px;
+    }
     .courses {
         display: flex;
         flex-wrap: wrap;
@@ -567,3 +571,4 @@ footer {
         margin-bottom: 0rem;
     }
  }
+
